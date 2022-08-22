@@ -11,6 +11,13 @@ html {
   background-color: #122126;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-nav {
     display: flex;
     justify-content: center;
@@ -30,8 +37,40 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-align: center;
-    color: #fff;
-    text-shadow: 0 0 10px #000;
+    color: #D8DAE5;
+    text-shadow: #13bfd6 0px 0px 10px;
     height: 200px;
     width: 100%;
+}
+
+.search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-shadow: #D8DAE5 0px 0px 10px;
+    color: #10f080;
+    height: 50px;
+    width: 80%;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    border-top: 0px solid rgba(0,0,0,1.50 );
+    border-left: 0px solid rgba(0,0,0,1.50 );
+    border-right: 0px solid rgba(0,0,0,1.50 );
+    border-bottom: 2px solid rgba(95,1,247,0.863);
+    box-shadow: rgb(83, 127, 168)  0px 1px 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #D8DAE5;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
 }
