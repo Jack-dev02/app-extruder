@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  background-color: #f1f2f4;
+  background-image: url('../img/reyma.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main-container h1 {
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4257cc;
+    text-shadow: #13d61d 0px 0px 10px;
+    height:200px;
+    width: 100%;
+}
+
+.main-container {
+  height: 120px;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 50px ;
+  padding-top: 20px;
+  padding-right: 80px;
+  
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 200px;
+  height: 50px;
+  color: #D8DAE5;
+  font-size: 1.4rem;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+  letter-spacing: 0.5rem;
+  text-align: center;
+  text-shadow: #13afd6 0px 0px 10px;  
+  border-radius: 15px;
+  box-shadow: rgb(61, 157, 201)  0px 0px 5px ;
+}
+
+.subtitulos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.subtitulos li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: #da1e1e;
+  text-shadow: #b513d6 0px 0px 10px;
+}
+
+.card {
+  margin: 20px;
+}
